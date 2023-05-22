@@ -62,7 +62,7 @@ pipeline {
         stage('Archive Resources') { // for display purposes
             steps {
                 script {
-                  new BuildFunctions().save_jars(
+                  new BuildFunctions().save_artifacts(
                     'mrt-box/box-run/target/mrt-boxrun-1.0-jar-with-dependencies.jar',
                     'mrt-box'
                   )
