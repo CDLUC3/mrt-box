@@ -7,7 +7,7 @@ This library is part of the [Merritt Preservation System](https://github.com/CDL
 This mechanism allows the authorization for downloading a BoxFolder.
 
 #### Box Developer App
-- create a box developer app using App Token (Server Authentication)
+- create a box developer app using Limited Access App
   - this requires box administration authorization for the app (sent automatically)
 - from the Configuration tab screen generate a Private Token - this is treated by Box as an AuthToken on the part of the app
   - be sure to copy this value
