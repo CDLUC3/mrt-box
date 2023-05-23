@@ -104,12 +104,8 @@ Contains the time for processing followed by the JSON metadata included in the m
 In order to run this process an executable jar needs to be created for org.cdlib.mrt.box.action.DownloadBoxMeta.
 
 ## Creating executable jar
-- cd mrt-cloud/box-src
-<br>--go to mrt-cloud repositoy box-src
-- mvn clean install
-<br>--build with maven
-- cd mrt-cloud/box-run
-<br>--go to mrt-cloud repositoy box-run
+- cd mrt-box
+<br>--go to mrt-box repositoy
 - mvn clean install
 <br>--build runtime jar with maven
 - cp ~/.m2/repository/org/cdlib/mrt/mrt-boxrun/1.0/mrt-boxrun-1.0-jar-with-dependencies.jar run.jar
